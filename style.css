@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav, header{
+    height: 60px;
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+}
+nav, header a {
+    padding: 0 10px;
+}
+section {
+    border: 3px solid white;
+}
+
+section#home, section#donation {
+    background-color: lightskyblue;
+}
+
+section#aboutus, section#contact {
+    background-color: lightcoral;
+}
+section#home {
+    min-height: 100vh;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.flex {
+    display: flex;
+}
+div.aboutus-1 {
+    padding: 0 50px;
+    font-size: large;
+}
+h1 {
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+div.aboutus-2 {
+    padding: 0 50px;
+    font-size:large;   
+}
+
+div.donation-1 {
+    padding: 0 50px;
+    font-size: large;
+
+}
+div.donation-2{
+    padding: 0 50px;
+    font-size: 18px;
+
+    
+}
+div.contact-1{
+    padding: 0 45px;
+    font-size: large;
+    text-align: center;
+    
+}
+section#home {
+    background-image:url("images-WD1/kidshands.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+div.m img {
+    height: 600px;
+}
+div.n img{
+    height: 91%;
+}
+footer{
+    background-color: yellowgreen;
+    height: 50px;
+    padding: 0 150px;
+   font-size: medium;
+    
+}
